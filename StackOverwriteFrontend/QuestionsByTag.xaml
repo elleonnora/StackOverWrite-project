@@ -1,0 +1,31 @@
+﻿<Window x:Class="StackOverwriteFrontend.QuestionsByTag"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StackOverwriteFrontend"
+        mc:Ignorable="d"
+        Title="All Questions By Tag" Height="640" Width="1250">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FFFFDFD3" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Prikaz pitanja" HorizontalAlignment="Left" Margin="456,38,0,0" VerticalAlignment="Top" Height="70" Width="312" FontSize="48" FontFamily="Segoe UI Emoji" Foreground="#FF512B07"/>
+        <Label Content="Ispod su prikazana najnovija pitanja za izabrani tag:" HorizontalAlignment="Left" Margin="82,113,0,0" VerticalAlignment="Top" Height="43" Width="686" FontSize="24" FontFamily="Segoe UI Emoji" Foreground="#FF512B07"/>
+        <ComboBox x:Name="comboBoxTag" HorizontalAlignment="Left" Height="43" Margin="668,113,0,0" VerticalAlignment="Top" Width="261" Background="#FFFFE3C8" BorderBrush="#FFFFAE60" Foreground="#FF512B07"/>
+        <ScrollBar HorizontalAlignment="Left" Height="349" Margin="82,212,0,0" VerticalAlignment="Top" Width="992"/>
+        <DataGrid HorizontalAlignment="Left" Height="349" Margin="82,212,0,0" VerticalAlignment="Top" Width="992"/>
+        <Button x:Name="buttonSearch" Content="Pretražite" HorizontalAlignment="Left" Margin="971,113,0,0" VerticalAlignment="Top" Width="226" Height="43" BorderBrush="#FF512B07" FontFamily="Segoe UI Emoji" FontSize="28" Foreground="#FF512B07">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF7A4E24" Offset="0"/>
+                    <GradientStop Color="#FFE09144" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

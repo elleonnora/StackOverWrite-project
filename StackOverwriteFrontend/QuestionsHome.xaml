@@ -1,0 +1,64 @@
+﻿<Window x:Class="StackOverwriteFrontend.QuestionsHome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StackOverwriteFrontend"
+        mc:Ignorable="d"
+        Title="Questions Home Page" Height="640" Width="1250">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FFFFDFD3" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Rectangle HorizontalAlignment="Left" Height="340" Margin="59,146,0,0" Stroke="#FF551401" VerticalAlignment="Top" Width="1124">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFFFD4C8" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="Izbor pitanja" HorizontalAlignment="Left" Margin="456,38,0,0" VerticalAlignment="Top" Height="70" Width="312" FontSize="48" FontFamily="Segoe UI Emoji" Foreground="#FF512B07"/>
+        <Label Content="Izaberite oblast za pitanje" HorizontalAlignment="Left" Margin="92,170,0,0" VerticalAlignment="Top" Height="56" Width="386" FontSize="28" FontFamily="Segoe UI Emoji" Foreground="#FF512B07"/>
+        <RadioButton Content="Programski jezik" HorizontalAlignment="Left" Margin="360,282,0,0" VerticalAlignment="Top" Height="35" Width="266" Foreground="#FF512B07" FontFamily="Segoe UI Emoji" RenderTransformOrigin="0.5,0.5">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton Content="Program" HorizontalAlignment="Left" Margin="345,391,0,0" VerticalAlignment="Top" Height="35" Width="249" Foreground="#FF512B07" FontFamily="Segoe UI Emoji" RenderTransformOrigin="0.5,0.5">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <Button x:Name="buttonNewQ" Content="Postavite novo pitanje" HorizontalAlignment="Left" Margin="738,522,0,0" VerticalAlignment="Top" Width="445" Height="46" BorderBrush="#FF512B07" FontFamily="Segoe UI Emoji" FontSize="28" Foreground="#FF512B07">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF7A4E24" Offset="0"/>
+                    <GradientStop Color="#FFE09144" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="buttonAllQShow" Content="Prikaži sva pitanja iz ove oblasti" HorizontalAlignment="Left" Margin="738,390,0,0" VerticalAlignment="Top" Width="404" Height="46" BorderBrush="#FF512B07" FontFamily="Segoe UI Emoji" FontSize="24" Foreground="#FF512B07">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF7A4E24" Offset="0"/>
+                    <GradientStop Color="#FFE09144" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
