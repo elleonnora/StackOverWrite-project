@@ -15,7 +15,7 @@
         </Grid.Background>
         <Label Content="Prikaz pitanja" HorizontalAlignment="Left" Margin="456,38,0,0" VerticalAlignment="Top" Height="70" Width="312" FontSize="48" FontFamily="Segoe UI Emoji" Foreground="#FF512B07"/>
         <Label Content="Ispod su prikazana najnovija pitanja za izabrani tag:" HorizontalAlignment="Left" Margin="82,113,0,0" VerticalAlignment="Top" Height="43" Width="686" FontSize="24" FontFamily="Segoe UI Emoji" Foreground="#FF512B07"/>
-        <ComboBox x:Name="comboBoxTag" HorizontalAlignment="Left" Height="43" Margin="668,113,0,0" VerticalAlignment="Top" Width="261" Background="#FFFFE3C8" BorderBrush="#FFFFAE60" Foreground="#FF512B07"/>
+        <ComboBox x:Name="comboBoxTag" HorizontalAlignment="Left" Height="43" Margin="669,113,0,0" VerticalAlignment="Top" Width="261" Background="#FFFFE3C8" BorderBrush="#FFFFAE60" Foreground="#FF512B07"/>
         <ScrollBar HorizontalAlignment="Left" Height="349" Margin="82,212,0,0" VerticalAlignment="Top" Width="992"/>
         <DataGrid HorizontalAlignment="Left" Height="349" Margin="82,212,0,0" VerticalAlignment="Top" Width="992"/>
         <Button x:Name="buttonSearch" Content="Pretražite" HorizontalAlignment="Left" Margin="971,113,0,0" VerticalAlignment="Top" Width="226" Height="43" BorderBrush="#FF512B07" FontFamily="Segoe UI Emoji" FontSize="28" Foreground="#FF512B07">
